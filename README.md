@@ -19,7 +19,6 @@ Please note that the code has been designed with Python 3.11.4 (except for dimen
 ------------
 
 Python scripts require the following modules:
-
  * fmch (not available on conda/pypi, use included version, i.e. add folder structure to your Python PATH or add the functions and class in hsicos.py manually to your Python environment.)
  * numpy
  * xarray
@@ -41,16 +40,18 @@ Python scripts require the following modules:
  * cdsapi
  * hda
  * logging
+
 recommended:
- * HSI2RGB (https://github.com/JakobSig/HSI2RGB)
+ * HSI2RGB (loaded as function from fmch module in 01\_hsi\_gpp\_preproc\_main.py, https://github.com/JakobSig/HSI2RGB)
+
 with Python 3.7:
  * pymf (not available on conda/pypi, use included version, source: https://github.com/cthurau/pymf)
  * tensorflow 1.14
  * deephyp 0.1.5
  * scikit-learn
 
-R scripts require the following packages:
 
+R scripts require the following packages:
  * tidyverse
  * tidync
  * ggthemes
