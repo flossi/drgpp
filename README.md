@@ -1,4 +1,4 @@
-## mlgpp - Combining flux and hyperspectral data for GPP estimation with extreme gradient boosting
+## drgpp - Data-driven productivity modeling with hyperspectral data and advanced dimension reduction methods
 
 ### Description
 ------------
@@ -44,8 +44,10 @@ Python scripts require the following modules:
 recommended:
  * HSI2RGB (https://github.com/JakobSig/HSI2RGB)
 with Python 3.7:
+ * pymf (not available on conda/pypi, use included version, source: https://github.com/cthurau/pymf)
  * tensorflow 1.14
  * deephyp 0.1.5
+ * scikit-learn
 
 R scripts require the following packages:
 
